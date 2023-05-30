@@ -20,35 +20,35 @@
     <div class="container">
       <nav class="bottom-nav">
         <div class="bottom-nav-item">
-           <a href="info.html">
+           <a href="info.php">
             <div class="bottom-nav-link">
               <i class="bi bi-bar-chart-line"></i>
           </div>
         </a> 
         </div>
-        <div class="bottom-nav-item active">
-          <a href="bets.html">
+        <div class="bottom-nav-item">
+          <a href="bets.php">
             <div class="bottom-nav-link">        
               <i class="bi bi-star"></i>
           </div>
           </a>
         </div>
         <div class="bottom-nav-item">
-          <a href="index.html">
+          <a href="index.php">
             <div class="bottom-nav-link">
               <i class="bi bi-house-door"></i>
             </div>
           </a>
         </div>
-        <div class="bottom-nav-item">
-          <a href="balance.html">
+        <div class="bottom-nav-item active">
+          <a href="balance.php">
             <div class="bottom-nav-link">
               <i class="bi bi-cash"></i>
             </div>
           </a>
         </div>
         <div class="bottom-nav-item">
-          <a href="leaderboard.html">
+          <a href="leaderboard.php">
             <div class="bottom-nav-link">
               <i class="bi bi-trophy"></i>
             </div>
