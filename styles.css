@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +15,11 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #161615;
+  color: #A6A6A6;
+  background-image: url("assets/bg-app.svg");
+  background-position: top 0px right 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -23,8 +28,6 @@ body {
   height: auto;
   padding: 0 2rem;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 .header .bottom-nav {
@@ -51,11 +54,67 @@ body {
 .header .bottom-nav-link {
   display: flex;
   flex-direction: column;
-  background-color: #161615;
+  background-color: #A6A6A6;
   padding: 1rem;
   margin: 0.2rem;
   color: #ffffff;
 }
 .header .bottom-nav .active {
   transform: scale(1.1);
+}
+
+.top-nav {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.top-nav i {
+  color: #A6A6A6;
+}
+.top-nav a {
+  text-decoration: none;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.personal-score {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.personal-score h3 {
+  background-color: #A6A6A6;
+  color: #ffffff;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.points {
+  background-color: #D9000D;
+  color: #ffffff;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.mega-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.mega-menu .menu-items {
+  width: 100%;
+  height: auto;
+  background-color: #A6A6A6;
+  display: flex;
+  align-items: center;
+  padding: 60px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,4 @@
-var navItems = document.querySelectorAll(".bottom-nav-item");
+var navItems = document.querySelectorAll(".l-bottom-nav-item");
 
 navItems.forEach(function(e, i) {
   e.addEventListener("click", function(e) {
