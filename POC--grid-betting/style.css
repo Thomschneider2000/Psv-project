@@ -1,0 +1,37 @@
+.grid--container{
+    background-image: url("/grid.svg");
+    width: 100%;
+    aspect-ratio: 3 / 2;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+
+td{
+    border-width: 1px!important;
+    border-color: darkgray!important;
+}
+
+td:has(input:checked){
+    background: red;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.multiplier{
+    font-size: 40px;
+}
+
+.btn-primary{
+    width: 100%;
+    background: darkgray!important;
+    border-radius: 0!important;
+    border: 0!important;
+}
