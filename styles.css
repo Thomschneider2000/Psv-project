@@ -14,7 +14,11 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #161615;
+  color: #A6A6A6;
+  background-image: url("assets/bg-app.svg");
+  background-position: top 0px right 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -49,11 +53,28 @@ body {
 .header .bottom-nav-link {
   display: flex;
   flex-direction: column;
-  background-color: #161615;
+  background-color: #A6A6A6;
   padding: 1rem;
   margin: 0.2rem;
   color: #ffffff;
 }
+.header .bottom-nav i {
+  font-size: 20px;
+}
 .header .bottom-nav .active {
   transform: scale(1.1);
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.top-nav i {
+  font-size: 25px;
+}
+.top-nav a {
+  text-decoration: none !important;
 }/*# sourceMappingURL=styles.css.map */
+
+
