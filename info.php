@@ -8,48 +8,49 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles.css">
-  
 </head>
 
 <body>
+  <div class="row">
+    <a href="#"></a>
+  </div>
   <header class="header">
     <div class="container">
       <nav class="bottom-nav">
-        <div class="bottom-nav-item">
-           <a href="info.html">
+        <div class="bottom-nav-item active">
+           <a href="info.php">
             <div class="bottom-nav-link">
-              <i class="fa-sharp fa-solid fa-chart-line fa-2x"></i>
+              <i class="bi bi-bar-chart-line"></i>
           </div>
         </a> 
         </div>
         <div class="bottom-nav-item">
-          <a href="bets.html">
+          <a href="bets.php">
             <div class="bottom-nav-link">        
-              <i class="fa-sharp fa-solid fa-star fa-2x"></i>
+              <i class="bi bi-star"></i>
           </div>
           </a>
         </div>
         <div class="bottom-nav-item">
-          <a href="index.html">
+          <a href="index.php">
             <div class="bottom-nav-link">
-              <i class="fa-sharp fa-solid fa-house fa-2x"></i>
+              <i class="bi bi-house-door"></i>
             </div>
           </a>
         </div>
         <div class="bottom-nav-item">
-          <a href="balance.html">
+          <a href="balance.php">
             <div class="bottom-nav-link">
-              <i class="fa-sharp fa-solid fa-money-check-dollar fa-2x"></i>
+              <i class="bi bi-cash"></i>
             </div>
           </a>
         </div>
-        <div class="bottom-nav-item active">
-          <a href="leaderboard.html">
+        <div class="bottom-nav-item">
+          <a href="leaderboard.php">
             <div class="bottom-nav-link">
-              <i class="fa-sharp fa-solid fa-trophy fa-2x"></i>
+              <i class="bi bi-trophy"></i>
             </div>
           </a>
         </div>

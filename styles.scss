@@ -72,6 +72,9 @@ body {
       margin: 0.2rem;
       color: $tcolor;
     }
+    i {
+      font-size: 20px;
+    }
     .active {
       transform: scale(1.1);
     }
@@ -79,58 +82,13 @@ body {
 }
 
 .top-nav {
-  margin: 1.5rem;
   display: flex;
   justify-content: space-between;
+  margin: 20px;
   i {
-    color: $scolor;
+    font-size: 25px;
   }
   a {
-    text-decoration: none;
-  }
-}
-
-.user {
-  display: flex;
-  justify-content: center;
-}
-
-.personal-score {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-  h3 {
-    background-color: $scolor;
-    color: $tcolor; 
-    padding: 8px ;
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
-}
-
-.points {
-  background-color: $pcolor;
-  color: $tcolor;
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.mega-menu {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  text-decoration: none ;
-  .menu-items {
-    width: 100%;
-    height: auto;
-    background-color: $scolor;
-    display: flex;
-    align-items: center;
-    padding: 60px;
-    
+    text-decoration: none !important;
   }
 }
