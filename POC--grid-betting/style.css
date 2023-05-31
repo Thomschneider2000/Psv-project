@@ -1,5 +1,5 @@
 .grid--container{
-    background-image: url("/grid.svg");
+    background-image: url("grid.svg");
     width: 100%;
     aspect-ratio: 3 / 2;
 }
@@ -19,13 +19,13 @@ td:has(input:checked){
     background: red;
 }
 
-input{
+td>input{
     height: 100%;
     width: 100%;
     opacity: 0;
 }
 
-.multiplier{
+.value{
     font-size: 40px;
 }
 
@@ -34,4 +34,32 @@ input{
     background: darkgray!important;
     border-radius: 0!important;
     border: 0!important;
+}
+
+.container--radio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid darkgray;
+}
+
+.container--radio:has(.radio--goal:checked){
+    background: darkgray;
+    color: white;
+}
+
+.radio--goal{
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+}
+
+p{
+    margin-bottom: 0!important;
+}
+
+.row--form{
+    padding-bottom: 32px;
 }
