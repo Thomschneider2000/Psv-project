@@ -63,3 +63,19 @@ p{
 .row--form{
     padding-bottom: 32px;
 }
+
+html{
+    width: 100vw;
+}
+
+.zone1{
+    background: yellow;
+}
+
+.zone2{
+    background: green;
+}
+
+.zone3{
+    background: blue;
+}

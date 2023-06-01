@@ -1,4 +1,4 @@
-const odds = [2.27, 0.56, 0.0853] //odds in percentage, first goal
+const odds = [2.38, 1.3688, 0.1802] //odds in percentage, first goal
 var odd = []
 const zone = []
 var multiplier = 0
