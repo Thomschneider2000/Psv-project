@@ -1,7 +1,8 @@
 .grid--container{
-    background-image: url("grid.svg");
+    background-image: url("grid1.svg");
     width: 100%;
     aspect-ratio: 3 / 2;
+    background-size: cover  ;
 }
 
 table{
@@ -16,7 +17,7 @@ td{
 }
 
 td:has(input:checked){
-    background: red;
+    background: #ED1C24;
 }
 
 td>input{
@@ -42,12 +43,19 @@ td>input{
     justify-content: center;
     align-items: center;
     padding: 16px;
-    border: 1px solid darkgray;
+    margin-bottom: 24px;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    /* font-family: 'Klavika-Regular'; */
 }
 
 .container--radio:has(.radio--goal:checked){
-    background: darkgray;
+    background: #D9000D;
     color: white;
+}
+
+label{
+font-weight: bold;
 }
 
 .radio--goal{

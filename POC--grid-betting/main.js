@@ -35,4 +35,9 @@ $(document).ready(function(){
         payout = $("#js-bet").val() * multiplier
         $("#js-payout").text(payout.toFixed(2))
     }
+
+    Swal.fire(
+        'Welcome to grid betting!',
+        'In grid betting, you can check a maximum of 10 tiles and guess from which position will scored. The fewer tiles you select the higher the number of points you can earn.',
+    )
 })
