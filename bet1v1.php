@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include "head.php"?>
+	<?php include "head.php"?>
 	<body>
 		<header class="header">
-		<?php include "nav.php"?>
+			<?php include "nav.php"?>
+			
 			<div id="appConatainer">
 				<div class="screenContainer" id="scoresheet">
 					<div id="sectionHeader">
@@ -43,6 +44,7 @@
 					</div>
 				</div>
 			</div>
+
 		</header>
 	</body>
 	<script src="assets/js/nav.js"></script>
