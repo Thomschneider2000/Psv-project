@@ -39,6 +39,9 @@ body {
   height: auto;
   padding: 0 2rem;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header {
@@ -90,5 +93,183 @@ body {
   }
   a {
     text-decoration: none !important;
+  }
+}
+
+.user-name {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 3rem;
+  input {
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid $scolor;
+  border-radius: 5px;
+  padding: 10px;
+  color: $scolor;
+  }
+  button {
+    all: unset;
+    cursor: pointer;
+    border: 3px solid $pcolor;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: $pcolor;
+    color: $tcolor;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+.graphs {
+  border: 2px solid black;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.img-container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 2fr));
+  grid-template-rows: repeat(2, minmax(150px, 2fr));
+}
+
+.player {
+  background-color: $scolor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.match-container {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #303030;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+.Header {
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.Header_TeamLeft {
+  flex: 1 1 50%;
+  text-align: left;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.Header_TeamRight {
+  flex: 1 1 50%;
+  text-align: right;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 10px;
+}
+.Header_Scores {
+  flex: 1 0 auto;
+}
+
+.Scores {
+  display: inline-table;
+  table-layout: fixed;
+}
+.Scores_Score {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  padding-right: 2px;
+  
+  & + & {
+    padding-right: 0;
+    padding-left: 2px;
+  }
+}
+
+.Score {
+  display: block;
+  line-height: 24px;
+  font-size: 17px;
+  color: #333;
+  background-color: #ccc;
+  padding: 0 7px;
+  min-width: 22px;
+  text-align: center;
+  border-radius: 1px;
+}
+
+.Team_Name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  line-height: 17px;
+  font-size: 14px;
+  color: #333;
+}
+.Team_Label {
+  flex: 0 0 auto;
+  color: #fff;
+  font-size: 11px;
+  background-color: tomato;
+  line-height: 16px;
+  padding: 0 4px;
+  color: #fff;
+  border-radius: 1px;
+  
+  .Header_TeamLeft & {
+    margin-left: 10px;
+  }
+  .Header_TeamRight & {
+    margin-right: 10px;
   }
 }
