@@ -8,7 +8,7 @@
 						</a>
 					</div>
 					<div class="bottom-nav-item">
-						<a href="bets.php">
+						<a href="premiumpass.php">
 							<div class="bottom-nav-link">        
 								<i class="fa-sharp fa-solid fa-star fa-2x"></i>
 							</div>
@@ -28,7 +28,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="bottom-nav-item active">
+					<div class="bottom-nav-item">
 						<a href="leaderboard.php">
 							<div class="bottom-nav-link">
 								<i class="fa-sharp fa-solid fa-trophy fa-2x"></i>
