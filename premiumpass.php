@@ -22,30 +22,11 @@
   <header class="header">
     <div class="row">
       <div class="user-name">
-        <h1>Stats</h1>
+        <h1>Steven Berg</h1>
       </div>
     </div>
+    
     <div class="container">
-      <div class="img-container">
-        <img class="graphs" src="assets/images/playerstats.svg"/>
-        <div class="text-block">
-          <h4>Player stats</h4>
-        </div>
-      </div>
-      <div class="img-container">
-        <img class="graphs" src="assets/images/matchstats.svg"/>
-        <div class="text-block-home">
-          <h4>Match stats</h4>
-        </div>
-      </div>
-      <div class="img-container">
-        <img class="graphs" src="assets/images/seasonstats.svg"/>
-        <div class="text-block">
-          <h4>Season stats</h4>
-        </div>
-      </div>
-
-
       <nav class="bottom-nav">
         <div class="bottom-nav-item">
            <a href="info.php">

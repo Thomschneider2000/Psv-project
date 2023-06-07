@@ -26,6 +26,116 @@
       </div>
     </div>
     <div class="container">
+      <div class="grid">
+        <a class="player" href="#">Heatmap</a>
+        <a class="player" href="#">Grid</a>
+        <a class="player" href="#">Woodworks</a>
+        <a class="player" href="#">Classic</a>
+      </div>
+      <div class="match-container">
+        <div class="Header">
+          <div class="Header_TeamLeft">
+            <div class="Team_Name">Psv</div>
+          </div>
+          <div class="Header_Scores">
+            <div class="Scores">
+              <div class="Scores_Score">
+                <div class="Score">2</div>
+              </div>
+              <div class="Scores_Score">
+                <div class="Score">1</div>
+              </div>
+            </div>
+          </div>
+          <div class="Header_TeamRight">
+            <div class="Team_Name">FC Emmen</div>
+          </div>
+        </div>
+    </div>
+    <div class="match-container">
+      <div class="Header">
+        <div class="Header_TeamLeft">
+          <div class="Team_Name">Ajax</div>
+        </div>
+        <div class="Header_Scores">
+          <div class="Scores">
+            <div class="Scores_Score">
+              <div class="Score">1</div>
+            </div>
+            <div class="Scores_Score">
+              <div class="Score">0</div>
+            </div>
+          </div>
+        </div>
+        <div class="Header_TeamRight">
+          <div class="Team_Name">Roda JC</div>
+        </div>
+      </div>
+  </div>
+  <div class="match-container">
+    <div class="Header">
+      <div class="Header_TeamLeft">
+        <div class="Team_Name">FC Utrecht</div>
+      </div>
+      <div class="Header_Scores">
+        <div class="Scores">
+          <div class="Scores_Score">
+            <div class="Score">0</div>
+          </div>
+          <div class="Scores_Score">
+            <div class="Score">2</div>
+          </div>
+        </div>
+      </div>
+      <div class="Header_TeamRight">
+        <div class="Team_Name">AZ</div>
+      </div>
+    </div>
+</div>
+<div class="match-container">
+  <div class="Header">
+    <div class="Header_TeamLeft">
+      <div class="Team_Name">Top Oss</div>
+    </div>
+    <div class="Header_Scores">
+      <div class="Scores">
+        <div class="Scores_Score">
+          <div class="Score">1</div>
+        </div>
+        <div class="Scores_Score">
+          <div class="Score">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="Header_TeamRight">
+      <div class="Team_Name">Almere City</div>
+    </div>
+  </div>
+</div>
+<div class="match-container">
+  <div class="Header">
+    <div class="Header_TeamLeft">
+      <div class="Team_Name">FC Volendam</div>
+    </div>
+    <div class="Header_Scores">
+      <div class="Scores">
+        <div class="Scores_Score">
+          <div class="Score">0</div>
+        </div>
+        <div class="Scores_Score">
+          <div class="Score">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="Header_TeamRight">
+      <div class="Team_Name">Excelsior</div>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+      </div>
       <nav class="bottom-nav">
         <div class="bottom-nav-item">
            <a href="info.php">
