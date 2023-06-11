@@ -1,0 +1,72 @@
+body {
+    background-color: lightgray; /* Set the background color of the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to fill the viewport */
+  }
+  
+
+
+.container {
+    background-color: white; /* Set the background color of the container */
+    padding: 20px;
+  }
+  
+.battle-pass {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+.battle-pass h1 {
+    margin-top: 0;
+  }
+  
+.rewards {
+    align-items: center;
+    flex: 1;
+  }
+
+.right {
+  flex: 1;
+}
+  
+.reward {
+    margin-bottom: 20px;
+  }
+  
+.reward-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 50%; /* make the boxes circles */
+    text-align: center;
+  }
+  
+.reward-name {
+    font-weight: bold;
+  }
+  
+.reward-status {
+    color: gray;
+  }
+  
+
+  .progress-bar {
+    width: 15px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    border: 1px solid #000000;
+    position: relative;
+  }
+  
+  .progress {
+    width: 100%;
+    background-color: #c70000; /* Adjust color as needed */
+    position: absolute;
+    bottom: 0;
+  }
+
