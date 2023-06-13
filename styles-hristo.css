@@ -1,0 +1,66 @@
+body {
+    background-color: lightgray; /* Set the background color of the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to fill the viewport */
+  }
+  
+
+.container {
+    background-color: white; /* Set the background color of the container */
+    padding: 20px;
+  }
+  
+.battle-pass {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+.battle-pass h1 {
+    margin-top: 0;
+  }
+  
+.rewards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.reward {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+.reward-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+.reward-name {
+    font-weight: bold;
+  }
+  
+.reward-status {
+    color: gray;
+  }
+  
+.progress-line {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+
+  
