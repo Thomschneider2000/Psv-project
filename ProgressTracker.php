@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<link rel="stylesheet" href="styles-umair.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="stylesHristo.css">
+        <link rel="stylesheet" type="text/css" href="styles-hristo.css">
     </head>
 	<body>
 		<header class="header">
@@ -75,56 +75,35 @@
 							<div>AJAX</div>
 						</div>
 					</div>
-					<div id="matchReport">
+			<div id="matchReport">
 
 								
                     <div class="container">
-                            <div class="battle-pass">
-                                <h1>Battle Pass Reward Tracker</h1>
-                                
-                                
-                                    
-                                        <div class="rewards">
-                                            <div class="reward">
-                                                <div class="reward-box">
-                                                    <span class="reward-name">Reward 1</span>
-                                                    <span class="reward-status">Locked</span>
-                                                </div>
-                                            </div>
-                                            <div class="reward">
-                                                <div class="reward-box">
-                                                    <span class="reward-name">Reward 2</span>
-                                                    <span class="reward-status">Locked</span>
-                                                </div>
-                                            </div>
-                                            <div class="reward">
-                                                <div class="reward-box">
-                                                    <span class="reward-name">Reward 3</span>
-                                                    <span class="reward-status">Locked</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="right">
-                                            <div class="progress-bar">
-                                                <div class="progress">
-                                                    
-                                                </div>
-                                             </div>
-                                            </div>
-                                        </div>
-                                   
-                                
+                        <div class="battle-pass">
+                        <h1>Battle Pass Reward Tracker</h1>
+                            <div class="rewards">
+                                <div class="reward">
+                                    <div class="reward-box">
+                                        <span class="reward-name">Reward 1</span>
+                                        <span class="reward-status">Locked</span>
+                                    </div>
+                                 </div>
+                                <div class="reward">
+                                    <div class="reward-box">
+                                        <span class="reward-name">Reward 2</span>
+                                        <span class="reward-status">Locked</span>
+                                    </div>
+                                </div>
+                                <div class="reward">
+                                    <div class="reward-box">
+                                        <span class="reward-name">Reward 3</span>
+                                        <span class="reward-status">Locked</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
 
-
-
-
-					<div id="mom"><span>Man of the Match :</span> Cristiano Ronaldo (RMA)
-						<img src="https://tmssl.akamaized.net//images/portrait/originals/8198-1413207036.jpg" alt="">
-					</div>
 			
 			</div>
 		</header>

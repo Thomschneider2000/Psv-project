@@ -7,14 +7,13 @@ body {
   }
   
 
-
 .container {
     background-color: white; /* Set the background color of the container */
     padding: 20px;
   }
   
 .battle-pass {
-  max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -25,27 +24,25 @@ body {
   }
   
 .rewards {
-  display: flex;
-    width: 50%;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
-.right {
-  width: 50%;
-  float: right;
-}
   
 .reward {
     margin-bottom: 20px;
+    position: relative;
   }
   
 .reward-box {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 150px;
     height: 150px;
     border: 2px solid gray;
-    border-radius: 50%; /* make the boxes circles */
+    border-radius: 50%;
     text-align: center;
   }
   
@@ -57,18 +54,13 @@ body {
     color: gray;
   }
   
-
-  .progress-bar {
-    width: 15px; /* Adjust width as needed */
-    height: 300px; /* Adjust height as needed */
-    border: 1px solid #000000;
-    position: relative;
-  }
-  
-  .progress {
-    width: 100%;
-    background-color: #c70000; /* Adjust color as needed */
+.progress-line {
     position: absolute;
-    bottom: 0;
+    top: 0;
+    left: 100%;
+    width: 2px;
+    height: 100%;
+    background-color: gray;
   }
 
+  
