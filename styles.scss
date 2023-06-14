@@ -1,7 +1,7 @@
 // colors
 
 $pcolor: #D9000D;
-$scolor: #A6A6A6;
+$scolor: #161615;
 $tcolor: #ffffff;
 
 // fonts
@@ -193,7 +193,7 @@ body {
 .match-container {
 	width: 100%;
 	margin: 0 auto;
-	border: 1px solid #303030;
+	border: 2px solid black;
 	padding: 0 10px;
 	margin-bottom: 5px;
 }
@@ -250,8 +250,8 @@ body {
 	display: block;
 	line-height: 24px;
 	font-size: 17px;
-	color: #333;
-	background-color: #ccc;
+	color: white;
+	background-color: #c70000;
 	padding: 0 7px;
 	min-width: 22px;
 	text-align: center;
@@ -286,3 +286,18 @@ body {
 		margin-right: 10px;
 	}
 }
+
+#cover {
+	width: 250px;
+	height: 250px;
+	max-width: 500px;
+  margin: auto;
+  }
+  
+  #cover > a > img {
+	float: left;
+	border: 2px solid black;
+	width: 45%;
+	margin: 1.66%;
+	
+  }
