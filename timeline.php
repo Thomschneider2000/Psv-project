@@ -27,7 +27,7 @@
 									<li>1</li>
 								</ul>
 							</div>
-							<button class="betButton">Place bet</button>
+							<a href="bet1v1.php"><a href="bet1v1.php"><button class="betButton">Place bet</button></a></a>
 						</div>
 						<div class="teamImg">
 							<img src="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"/>
@@ -46,7 +46,7 @@
 									<li>1</li>
 								</ul>
 							</div>
-							<button class="betButton">Place bet</button>
+							<a href="bet1v1.php"><button class="betButton">Place bet</button></a>
 						</div>
 						<div class="teamImg">
 							<img src="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"/>
@@ -72,7 +72,7 @@
 									<li>1</li>
 								</ul>
 							</div>
-							<button class="betButton">Place bet</button>
+							<a href="bet1v1.php"><button class="betButton">Place bet</button></a>
 						</div>
 						<div class="teamImg">
 							<img src="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"/>
@@ -91,7 +91,7 @@
 									<li>1</li>
 								</ul>
 							</div>
-							<button class="betButton">Place bet</button>
+							<a href="bet1v1.php"><button class="betButton">Place bet</button></a>
 						</div>
 						<div class="teamImg">
 							<img src="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"/>
@@ -110,7 +110,7 @@
 									<li>1</li>
 								</ul>
 							</div>
-							<button class="betButton">Place bet</button>
+							<a href="bet1v1.php"><button class="betButton">Place bet</button></a>
 						</div>
 						<div class="teamImg">
 							<img src="https://a.espncdn.com/i/teamlogos/soccer/500/139.png"/>
