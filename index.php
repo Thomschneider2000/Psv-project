@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="styles.css">
-				<!-- <link rel="stylesheet" href="styles-umair.css"> -->
+				<link rel="stylesheet" href="styles-umair.css">
 
 	</head>
 	<body>
@@ -19,8 +19,9 @@
 				<a href="#"><i class="bi bi-sliders"></i></a>
 			</div>
 		</div>
-		<header class="header">
-    <?php include "nav.php"?>
+	</header>
+</body>
+<script src="assets/js/nav.js"></script>
 
 			<div class="row">
 				<div class="user-name">

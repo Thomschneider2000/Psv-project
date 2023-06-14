@@ -34,7 +34,7 @@
 				</div>
 				<div class="img-container">
 					<img class="graphs" src="assets/images/matchstats.svg"/>
-					<div class="text-block-home">
+					<div class="text-block">
 						<h4>Match stats</h4>
 					</div>
 				</div>
