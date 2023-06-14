@@ -21,13 +21,13 @@
 							</div>
 						</a>
 					</div>
-					<div class="bottom-nav-item">
+					<!-- <div class="bottom-nav-item">
 						<a href="balance.php">
 							<div class="bottom-nav-link">
 								<i class="fa-sharp fa-solid fa-money-check-dollar fa-2x"></i>
 							</div>
 						</a>
-					</div>
+					</div> -->
 					<div class="bottom-nav-item">
 						<a href="leaderboard.php">
 							<div class="bottom-nav-link">
