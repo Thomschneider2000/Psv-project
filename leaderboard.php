@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-		<link rel="stylesheet" href="styles.css">
-	</head>
+	<?php include "head.php"?>
 	<body>
-		<div class="row">
-			<a href="#"></a>
-		</div>
-    
 		<header class="header">
 			<?php include "nav.php"?>
-			<div class="container">
+			<div id="appConatainer">
+				<div class="screenContainer" id="scoresheet">
+					<h2 class="title"><img src="http://findicons.com/files/icons/2799/flat_icons/256/trophy.png">
+						LEADERBOARD
+					</h2>
+					<ol id="board" class="leaderboard">
+					</ol>
+					<div id="mom"><span>Man of the Match :</span> Cristiano Ronaldo (RMA)
+						<img src="https://tmssl.akamaized.net//images/portrait/originals/8198-1413207036.jpg" alt="">
+					</div>
+				</div>
 			</div>
-
 		</header>
 	</body>
 	<script src="assets/js/nav.js"></script>
+	<script src="main.js"></script>
 </html>
