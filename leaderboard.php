@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<title>Leaderboard</title>
 <html lang="en">
 	<?php include "head.php"?>
 	<body>

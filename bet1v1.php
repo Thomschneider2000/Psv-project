@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>1v1 Betting</title>
+
 	<?php include "head.php"?>
 	<body>
 		<header class="header">

@@ -12,18 +12,40 @@
 	</head>
 	<body>
 		<div class="row">
-			<a href="#"></a>
+			<div class="top-nav">
+				<a href="#"><i class="bi bi-person-circle"></i></a>
+				<a href="#"><i class="bi bi-sliders"></i></a>
+			</div>
 		</div>
 		<header class="header">
+    <?php include "nav.php"?>
 
-
-			<div class="container">
-				<?php include "nav.php"?>
-
-
-
-
+			<div class="row">
+				<div class="user-name">
+					<h1>Stats</h1>
+				</div>
 			</div>
+			<div class="container">
+				<div class="img-container">
+					<img class="graphs" src="assets/images/playerstats.svg"/>
+					<div class="text-block">
+						<h4>Player stats</h4>
+					</div>
+				</div>
+				<div class="img-container">
+					<img class="graphs" src="assets/images/matchstats.svg"/>
+					<div class="text-block">
+						<h4>Match stats</h4>
+					</div>
+				</div>
+				<div class="img-container">
+					<img class="graphs" src="assets/images/seasonstats.svg"/>
+					<div class="text-block">
+						<h4>Season stats</h4>
+					</div>
+				</div>
+			</div>
+
 		</header>
 	</body>
 	<script src="assets/js/nav.js"></script>

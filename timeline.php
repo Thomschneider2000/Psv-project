@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<title>Classic Betting</title>
 <html lang="en">
 	<?php include "head.php"?>
 	<body>
